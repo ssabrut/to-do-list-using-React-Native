@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 
 import Header from './components/Header';
 import ToDoItem from './components/ToDoItem';
@@ -50,9 +50,11 @@ const styles = StyleSheet.create({
 		backgroundColor: "#fff",
 	},
 	content: {
+		flex: 1,
 		padding: 40,
 	},
 	list: {
+		flex: 1,
 		marginTop: 20,
 	}
 });
